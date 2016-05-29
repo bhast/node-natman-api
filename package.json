@@ -1,6 +1,6 @@
 {
   "name": "natman-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Natman converted into an useable API.",
   "main": "natman.js",
   "dependencies": {
