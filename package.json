@@ -1,6 +1,6 @@
 {
-  "name": "natman-api",
-  "version": "0.0.2",
+  "name": "natman-api-udp",
+  "version": "0.0.3",
   "description": "Natman converted into an useable API.",
   "main": "natman.js",
   "dependencies": {
@@ -18,16 +18,17 @@
     "upnp",
     "nat",
     "port",
-    "forwarding"
+    "forwarding",
+    "udp"
   ],
-  "author": "Bram van der Veen",
+  "author": "Brandon Hastings",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/96AA48/node-natman-api.git"
+    "url": "git+https://github.com/bhast/node-natman-api-udp.git"
   },
   "bugs": {
-    "url": "https://github.com/96AA48/node-natman-api/issues"
+    "url": "https://github.com/bhast/node-natman-api-udp/issues"
   },
-  "homepage": "https://github.com/96AA48/node-natman-api#readme"
+  "homepage": "https://github.com/bhast/node-natman-api-udp#readme"
 }
