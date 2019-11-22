@@ -20,7 +20,12 @@ var privatePort = 9871; //The port on your machine that you want to forward
 var publicPort = 9871;  //The port you want to open to the rest of the world.
 var protocol = 'UDP';   //The protocol you want to open with can be 'UDP' or 'TCP' (default)
 
-natman(privatePort, publicPort, protocol);
+natman(privatePort, publicPort, protocol, function(err, info){
+  if (err) {
+    console.error(err);
+  }
+  console.log(info);
+});
 ```
 
 ### License
