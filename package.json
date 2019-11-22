@@ -1,6 +1,6 @@
 {
   "name": "natman-api-udp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Natman converted into an useable API.",
   "main": "natman.js",
   "dependencies": {
