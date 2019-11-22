@@ -1,4 +1,4 @@
-# node-natman-api
+# node-natman-api-udp
 
 This was the only UPNP/PMP project on Github that would work for me when using with an Electron App. Support added for UDP protocol port mapping.
 
